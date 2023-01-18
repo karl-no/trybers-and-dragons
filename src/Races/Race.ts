@@ -12,14 +12,14 @@ abstract class Race {
     return this._dexterity;
   }
 
+  abstract get maxLifePoints(): number;
+
   static createdRacesInstances(): number {
     if (this) {
       throw new Error('Not implemented');      
     }
     return 0;
   }
-
-  abstract get maxLifePoints(): number;
 }
 
 export default Race;
