@@ -1,4 +1,4 @@
-interface SimpleFighter {
+interface SimpleFighter{
   lifePoints: number;
   strength: number;
 
